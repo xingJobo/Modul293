@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F4, Formulare</title>
+</head>
+<body>
+
+
+    <!-- Formular -->
+    <form action="fomular.php" method="post">
+
+        <div>
+            <label>Anrede *</label><br>
+     
+            <input type="radio"
+             name="anrede"
+             id="frau"
+             value="Frau"
+             required>
+     
+          <label for="frau" >Frau</label>
+     
+            <input type="radio"
+             name="anrede"
+             id="herr"
+             value="Herr">
+     
+            <label for="herr" >Herr</label>
+     
+            <input type="radio"
+             name="anrede"
+             id="anderes"
+             value="Anderes">
+     
+            <label for="anderes" >Anderes</label>
+        </div>
+     
+        <div>
+            <label for="vorname">Vorname *</label><br>
+     
+            <input type="text"
+             id="vorname"
+             name="vorname"
+             minlength="1"
+             maxlength="30"
+             required />
+        </div>
+
+        <div>
+            <label for="Nachname">Nachname *</label><br>
+     
+            <input type="text"
+             id="Nachname"
+             name="Nachname"
+             minlength="1"
+             maxlength="30"
+             required />
+        </div>
+     
+     
+        [...]
+       
+     
+        <div>
+     
+            <input type="submit" value="Senden">
+     
+            [...] 
+      
+     
+        </div>
+     
+     </form>
+    
+</body>
+</html>

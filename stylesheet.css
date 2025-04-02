@@ -10,3 +10,68 @@ a:link {
 a:visited {
     color: yellow
 }
+
+    /* F3 */
+#mcImage {
+    height: 400px;
+    margin: 20px;
+}
+
+#curriculumWrapper {
+    display: flex;
+    }
+
+    .cData {
+        margin-left: 20px;
+    }
+
+    .cBreak {
+        padding: 20px;
+    }
+
+    .cHobbies {
+        margin: 20px;
+    }
+
+    /* F4 */
+
+    #f4Body {
+        box-sizing: border-box;
+
+        border: solid white 1px;
+
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        gap: 20px;
+        grid-template-rows: 1fr 6fr 1fr;
+
+        min-height: 100vh;
+
+    }
+
+    .f4Header {
+        grid-column: 1 / -1;
+        grid-row: 1;
+        border: solid white 1px;
+    }
+
+    .f4Main {
+
+
+        border: solid white 1px;
+    }
+
+    .f4NavLeft, .f4AsideRight {
+        padding: 20px;
+        border: solid white 1px;
+
+    }
+
+
+    .f4Footer {
+        grid-column: 1 / -1;
+
+        border: solid white 1px;
+        text-align: center;
+    }
