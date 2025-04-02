@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GET and POST</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <main>
+        <!-- GET Method // Search Form -->
+        <section>
+            <h1>GET-Method Example</h1>
+            <form method="GET" action="http://localhost:8000">
+                <label for="query">Search Term:</label>
+                <br>
+                <input type="text" id="query" name="query" placeholder="Enter something" />
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <!-- POST Method // Contact Form -->
+        <section>
+            <h1>POST-Method Example</h1>
+            <form action="http://localhost:8000" method="POST">
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="message">Message:</label>
+                <br>
+                <input type="text" id="message" name="message" required>
+                <br><br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+  </body>
+</html>
