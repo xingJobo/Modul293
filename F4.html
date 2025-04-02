@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>F4, Formulare</title>
 </head>
-<body>
+<body class="">
 
 
     <!-- Formular -->
-    <form action="fomular.php" method="post">
+    <form action="https://gibm.becknet.ch/formular/formular.php" method="post">
 
         <div>
             <label>Anrede *</label><br>
@@ -58,21 +58,70 @@
              maxlength="30"
              required />
         </div>
+
+        <div>
+            <label for="Strasse">Strasse *</label><br>
      
+            <input type="text"
+             id="Strasse"
+             name="Strasse"
+             minlength="1"
+             maxlength="100"
+             required />
+        </div>
+
+        <div>
+            <label for="PLZ">PLZ * / Ort</label><br>
      
-        [...]
-       
+            <input type="text"
+             id="PLZ"
+             name="PLZ"
+             minlength="1"
+             maxlength="100"
+             size = "2"
+             required />
+
+             <input type="text"
+              id="Ort"
+              name="Ort"
+              minlength="1"
+              maxlength="100"
+              size = "12"
+              required />
+        </div>
+
+        <div>
+            <label for="Email">Email *</label><br>
      
+            <input type="text"
+             id="Email"
+             name="Email"
+             minlength="1"
+             maxlength="100"
+             required />
+        </div>
+
+        <div>
+            <label for="Nachricht">Nachricht *</label><br>
+     
+            <textarea type="text"
+             id="Nachricht"
+             name="Nachricht"
+
+             
+             required> </textarea>
+        </div>
+   
         <div>
      
             <input type="submit" value="Senden">
-     
-            [...] 
-      
-     
+            <input type="submit" value="Löschen">
+   
         </div>
      
      </form>
+
+     <ol><a href="index.html">Back to index</a></ol>
     
 </body>
 </html>

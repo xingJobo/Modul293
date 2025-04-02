@@ -35,7 +35,7 @@ a:visited {
 
     /* F4 */
 
-    #f4Body {
+    #f3_2Body {
         box-sizing: border-box;
 
         border: solid white 1px;
@@ -50,26 +50,24 @@ a:visited {
 
     }
 
-    .f4Header {
+    .f3_2Header {
         grid-column: 1 / -1;
         grid-row: 1;
         border: solid white 1px;
     }
 
-    .f4Main {
-
-
+    .f3_2Main {
         border: solid white 1px;
     }
 
-    .f4NavLeft, .f4AsideRight {
+    .f3_2NavLeft, .f4AsideRight {
         padding: 20px;
         border: solid white 1px;
 
     }
 
 
-    .f4Footer {
+    .f3_2Footer {
         grid-column: 1 / -1;
 
         border: solid white 1px;
