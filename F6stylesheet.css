@@ -1,0 +1,48 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#wrapper {
+    width: 50%;
+    border: 1px solid black;
+margin: auto;
+}
+
+h1 {
+    background-color: grey;
+    color: white;
+    font-size: 28;
+}
+
+h2 {
+    color: blue;
+    font-size: 21px;
+}
+
+header strong {
+background-color: red;
+}
+
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+    
+}
+
+a:visited {
+    color: grey;
+}
+
+.active {
+text-decoration: underline;
+}
+
+ol li:last-child {
+    text-decoration: line-through;
+}

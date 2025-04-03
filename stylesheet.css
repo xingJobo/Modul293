@@ -1,80 +1,82 @@
 body {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 a:link {
-    color: yellow;
+  color: yellow;
 }
 
 a:visited {
-    color: yellow
+  color: yellow;
 }
 
-    /* F3 */
+/* F3 */
 #mcImage {
-    height: 400px;
-    margin: 20px;
+  height: 400px;
+  margin: 20px;
 }
 
 #curriculumWrapper {
-    display: flex;
-    }
+  display: flex;
+}
 
-    .cData {
-        margin-left: 20px;
-    }
+.cData {
+  margin-left: 20px;
+}
 
-    .cBreak {
-        padding: 20px;
-    }
+.cBreak {
+  padding: 20px;
+}
 
-    .cHobbies {
-        margin: 20px;
-    }
+.cHobbies {
+  margin: 20px;
+}
 
-    /* F3_2 */
+/* F3_2 */
 
-    .f3_2Body {
-        box-sizing: border-box;
+.f3_2Body {
+  box-sizing: border-box;
 
-        border: solid white 1px;
+  border: solid white 1px;
 
-        margin: auto;
-        display: grid;
-        grid-template-columns: 1fr 4fr 1fr;
-        gap: 20px;
-        grid-template-rows: 1fr 6fr 1fr;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gap: 20px;
+  grid-template-rows: 1fr 6fr 1fr;
 
-        min-height: 100vh;
+  min-height: 100vh;
+}
 
-    }
+.f3_2Header {
+  grid-column: 1 / -1;
+  grid-row: 1;
+  border: solid white 1px;
+}
 
-    .f3_2Header {
-        grid-column: 1 / -1;
-        grid-row: 1;
-        border: solid white 1px;
-    }
+.f3_2Main {
+  border: solid white 1px;
+}
 
-    .f3_2Main {
-        border: solid white 1px;
-    }
+.f3_2NavLeft,
+.f3_2AsideRight {
+  padding: 20px;
+  border: solid white 1px;
+}
 
-    .f3_2NavLeft, .f3_2AsideRight {
-        padding: 20px;
-        border: solid white 1px;
+.f3_2Footer {
+  grid-column: 1 / -1;
 
-    }
+  border: solid white 1px;
+  text-align: center;
+}
 
+/* F5 */
+#sampleImage1 {
+  width: 200px;
+}
 
-    .f3_2Footer {
-        grid-column: 1 / -1;
-
-        border: solid white 1px;
-        text-align: center;
-    }
-
-    /* F5 */
-    #sampleImage1 {
-width: 200px;
-    }
+.f5Video {
+  height: 200px;
+}
